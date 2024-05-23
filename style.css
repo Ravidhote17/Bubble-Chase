@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat';
+
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 160, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1{
+    position: absolute;
+    margin-top: -10vw;
+}
+
+#panel{
+    width: 70%;
+    height: 76%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5vw;
+
+}
+
+#ptop {
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(20, 53, 20);
+    justify-content: space-between;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(18, 119, 57);
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm {
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(28, 118, 28);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(18, 74, 18);
+}
+
+#game-over-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-over-container h1 {
+    font-size: 36px; 
+    color: black;
+    margin-bottom: 10px;
+}
+
+#playagain {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: rgb(18, 119, 57);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
